@@ -88,8 +88,12 @@ font-family: 'Poppins', sans-serif;
 
 
 .line {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	background-color: #35C2F8;
 	height: 1.7px;
 	margin-top: 35px;
@@ -120,7 +124,8 @@ font-family: 'Poppins', sans-serif;
 	background-color: #3DC2D3;
 
 	border-radius: 15px;
-	box-shadow: 1px 1px 10px aqua;
+	-webkit-box-shadow: 1px 1px 10px aqua;
+	        box-shadow: 1px 1px 10px aqua;
 
 
 }
@@ -135,7 +140,8 @@ font-family: 'Poppins', sans-serif;
 	background-color: transparent;
 
 	border-radius: none;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 
 
 }
@@ -182,7 +188,9 @@ font-family: 'Poppins', sans-serif;
 	/*margin-top: 70px;*/
 	padding-left: 70px;
 	padding-right:40px;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .design {
@@ -277,8 +285,12 @@ font-family: 'Poppins', sans-serif;
 .shida {
 	padding: 0px;
 	margin-top: 56px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .ieso1{
@@ -294,15 +306,23 @@ font-family: 'Poppins', sans-serif;
 }
 
 .pawawunebi{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: flex-start;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	font-size: 14px;
 
 }
 
 .pawawunebi1{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: flex-start;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	margin-top: 30px;
 	font-size: 14px;
 }
@@ -322,7 +342,8 @@ font-family: 'Poppins', sans-serif;
 @media all and (max-width: 1204px) {
   .yuteqsa2 { display: none}
   .shida {
-    justify-content: space-around}
+    -ms-flex-pack: distribute;
+        justify-content: space-around}
    .ieso {
    	text-align: center;
    }
@@ -394,10 +415,12 @@ font-family: 'Poppins', sans-serif;
 
 
 .plansheti {
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 	width: 100%;
 	height: 100%;
-	object-position: 0 100%;
+	-o-object-position: 0 100%;
+	   object-position: 0 100%;
 	-webkit-filter: drop-shadow(5px 5px 5px #222 );
   filter: drop-shadow(7px 7px 9px #222);
 
@@ -430,8 +453,12 @@ font-family: 'Poppins', sans-serif;
 
 .kidoshida {
 	margin-top: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: flex-start;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 }
 
 .logoebee {
@@ -479,7 +506,8 @@ font-family: 'Poppins', sans-serif;
      width: 100%;
      margin: 0px;
      padding: 0px;
-     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+             box-sizing: border-box;
      border: 0px;
      margin-top: 100px;
      
@@ -489,7 +517,8 @@ font-family: 'Poppins', sans-serif;
 	width: 100%;
 	padding:0px;
 	margin: 0px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	border: 0px;
 	display: block;
 
@@ -500,9 +529,11 @@ font-family: 'Poppins', sans-serif;
 	margin: 0px;
 	/*max-width: 465px;*/
 	width: 100%;
-	box-sizing: none;
+	-webkit-box-sizing: none;
+	        box-sizing: none;
 	border: 0px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	overflow: hidden;
 	
 
@@ -514,9 +545,11 @@ font-family: 'Poppins', sans-serif;
 	margin: 0px;
 	/*max-width: 465px;*/
 	width: 100%;
-	box-sizing: none;
+	-webkit-box-sizing: none;
+	        box-sizing: none;
 	border: 0px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	overflow: hidden;
 }
 
@@ -529,7 +562,9 @@ font-family: 'Poppins', sans-serif;
      padding: 0px;
      background-color: white;
      margin-top: 100px;
-     align-items: center;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
 
 }
 
@@ -540,7 +575,7 @@ font-family: 'Poppins', sans-serif;
 	text-align: center;
 
 	 }
-}
+
 
 .teqsteeee {
 	 
@@ -578,8 +613,12 @@ font-family: 'Poppins', sans-serif;
 }
 
 .circlecontent{
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   justify-content: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
    margin-top: 80px;
 
 
@@ -640,8 +679,12 @@ font-family: 'Poppins', sans-serif;
 }
 
 .circlecontent1{
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   justify-content: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
    margin-top: 80px;
 
 
@@ -700,7 +743,9 @@ font-family: 'Poppins', sans-serif;
      padding: 0px;
      background-color: #F7F7F7;
      margin-top:100px;
-     align-items: center;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
      padding-top: 100px;
 
 
@@ -826,8 +871,12 @@ font-family: 'Poppins', sans-serif;
 
 .kontaktebi {
 	margin-bottom: 25px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 
 }
 
@@ -857,8 +906,12 @@ font-family: 'Poppins', sans-serif;
 
 .register {
 	margin-bottom: 25px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-left: 10px;
@@ -884,8 +937,12 @@ font-family: 'Poppins', sans-serif;
      .informacia {
      	max-width: 500px;
      	width: 100%;
+     	display: -webkit-box;
+     	display: -ms-flexbox;
      	display: flex;
-     	justify-content: space-between;
+     	-webkit-box-pack: justify;
+     	    -ms-flex-pack: justify;
+     	        justify-content: space-between;
      	margin-left: auto;
      	margin-right: auto;
 
@@ -928,8 +985,10 @@ font-family: 'Poppins', sans-serif;
 	margin-right: auto;
 }
 
-.line1 { flex;
-    justify-content: center;
+.line1 { 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center;
     background-color: white;
     height: 1.7px;
     margin-top: 35px;
