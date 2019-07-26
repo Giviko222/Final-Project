@@ -823,6 +823,13 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+@media all and (max-width: 1024px){
+	.logcho:hover {
+		background-color: white;
+	}
+
+}
+
 /*seqcia8*/
 
 .seqcia8 {
